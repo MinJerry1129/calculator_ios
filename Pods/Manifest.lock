@@ -1,3 +1,36 @@
-PODFILE CHECKSUM: ee6f901165284f2b6caa2047b2be7ff5150a44da
+PODS:
+  - Alamofire (5.4.1)
+  - iOSDropDown (0.3.4)
+  - IQKeyboardManagerSwift (6.5.6)
+  - JTMaterialSpinner (3.0.5)
+  - SimpleCheckbox (2.1.0)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - iOSDropDown
+  - IQKeyboardManagerSwift
+  - JTMaterialSpinner
+  - SimpleCheckbox
+  - Toast-Swift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - iOSDropDown
+    - IQKeyboardManagerSwift
+    - JTMaterialSpinner
+    - SimpleCheckbox
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  iOSDropDown: c10a761f9a00c3f1cc9d3bce43ae504628e2f692
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  JTMaterialSpinner: 28a0444186b6b2df4206a77d12f7c9dcbe604958
+  SimpleCheckbox: ddcd433ab8c3a8f57300bebda13151a8f302c7f9
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: abead094e7578ea5856d4da3ee5af03ceacfaed7
 
 COCOAPODS: 1.10.1

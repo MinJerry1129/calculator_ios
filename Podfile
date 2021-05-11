@@ -6,5 +6,12 @@ target 'calculator' do
   use_frameworks!
 
   # Pods for calculator
+  pod 'SimpleCheckbox'
+  pod 'Alamofire'
+  pod 'JTMaterialSpinner'
+  pod 'IQKeyboardManagerSwift'
+  pod 'iOSDropDown'
+  pod 'Toast-Swift'
 
+  
 end
