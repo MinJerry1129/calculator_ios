@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C234CD6D8B8C91D1E7363E7 /* Pods_calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2207EEB53A7D8F6F340F24B /* Pods_calculator.framework */; };
 		C5FA491C2648C3130041866A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FA491B2648C3130041866A /* AppDelegate.swift */; };
 		C5FA491E2648C3130041866A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FA491D2648C3130041866A /* SceneDelegate.swift */; };
 		C5FA49202648C3130041866A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FA491F2648C3130041866A /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B14E60209C133246B46EBB9F /* Pods-calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calculator.release.xcconfig"; path = "Target Support Files/Pods-calculator/Pods-calculator.release.xcconfig"; sourceTree = "<group>"; };
+		BF13ABC2EA1CA3D65D196B98 /* Pods-calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calculator.debug.xcconfig"; path = "Target Support Files/Pods-calculator/Pods-calculator.debug.xcconfig"; sourceTree = "<group>"; };
 		C5FA49182648C3130041866A /* calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5FA491B2648C3130041866A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5FA491D2648C3130041866A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		C5FA49242648C3150041866A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5FA49272648C3150041866A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5FA49292648C3150041866A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2207EEB53A7D8F6F340F24B /* Pods_calculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C234CD6D8B8C91D1E7363E7 /* Pods_calculator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DA9CE750D6C88556A3C98BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF13ABC2EA1CA3D65D196B98 /* Pods-calculator.debug.xcconfig */,
+				B14E60209C133246B46EBB9F /* Pods-calculator.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C5FA490F2648C3130041866A = {
 			isa = PBXGroup;
 			children = (
 				C5FA491A2648C3130041866A /* calculator */,
 				C5FA49192648C3130041866A /* Products */,
+				0DA9CE750D6C88556A3C98BE /* Pods */,
+				CBE4BDCEF4B8B64AC960102A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +84,14 @@
 			path = calculator;
 			sourceTree = "<group>";
 		};
+		CBE4BDCEF4B8B64AC960102A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2207EEB53A7D8F6F340F24B /* Pods_calculator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +99,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5FA492C2648C3150041866A /* Build configuration list for PBXNativeTarget "calculator" */;
 			buildPhases = (
+				6DFD1D08ACD060D3B014EE68 /* [CP] Check Pods Manifest.lock */,
 				C5FA49142648C3130041866A /* Sources */,
 				C5FA49152648C3130041866A /* Frameworks */,
 				C5FA49162648C3130041866A /* Resources */,
@@ -131,6 +157,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6DFD1D08ACD060D3B014EE68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-calculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C5FA49142648C3130041866A /* Sources */ = {
@@ -283,6 +334,7 @@
 		};
 		C5FA492D2648C3150041866A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF13ABC2EA1CA3D65D196B98 /* Pods-calculator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +353,7 @@
 		};
 		C5FA492E2648C3150041866A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B14E60209C133246B46EBB9F /* Pods-calculator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
