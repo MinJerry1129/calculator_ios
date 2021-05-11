@@ -13,5 +13,6 @@ target 'calculator' do
   pod 'iOSDropDown'
   pod 'Toast-Swift'
   pod 'Charts'
+  pod "CalendarView"
   
 end
