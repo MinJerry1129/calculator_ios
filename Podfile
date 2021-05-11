@@ -12,6 +12,6 @@ target 'calculator' do
   pod 'IQKeyboardManagerSwift'
   pod 'iOSDropDown'
   pod 'Toast-Swift'
-
+  pod 'Charts'
   
 end

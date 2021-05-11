@@ -3,11 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		7C234CD6D8B8C91D1E7363E7 /* Pods_calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2207EEB53A7D8F6F340F24B /* Pods_calculator.framework */; };
+		C535EB89264A8BE100631D01 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C535EB88264A8BE100631D01 /* LoginVC.swift */; };
+		C535EB8D264A8BF200631D01 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C535EB8C264A8BF200631D01 /* SignupVC.swift */; };
+		C535EB91264A935000631D01 /* DiscloserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C535EB90264A935000631D01 /* DiscloserVC.swift */; };
+		C535EB94264AA55900631D01 /* TermVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C535EB93264AA55900631D01 /* TermVC.swift */; };
+		C535EB97264AAB2400631D01 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C535EB96264AAB2400631D01 /* HomeVC.swift */; };
 		C5FA491C2648C3130041866A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FA491B2648C3130041866A /* AppDelegate.swift */; };
 		C5FA491E2648C3130041866A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FA491D2648C3130041866A /* SceneDelegate.swift */; };
 		C5FA49202648C3130041866A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FA491F2648C3130041866A /* ViewController.swift */; };
@@ -19,6 +24,11 @@
 /* Begin PBXFileReference section */
 		B14E60209C133246B46EBB9F /* Pods-calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calculator.release.xcconfig"; path = "Target Support Files/Pods-calculator/Pods-calculator.release.xcconfig"; sourceTree = "<group>"; };
 		BF13ABC2EA1CA3D65D196B98 /* Pods-calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calculator.debug.xcconfig"; path = "Target Support Files/Pods-calculator/Pods-calculator.debug.xcconfig"; sourceTree = "<group>"; };
+		C535EB88264A8BE100631D01 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		C535EB8C264A8BF200631D01 /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		C535EB90264A935000631D01 /* DiscloserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscloserVC.swift; sourceTree = "<group>"; };
+		C535EB93264AA55900631D01 /* TermVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermVC.swift; sourceTree = "<group>"; };
+		C535EB96264AAB2400631D01 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		C5FA49182648C3130041866A /* calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5FA491B2648C3130041866A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5FA491D2648C3130041866A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,8 +58,26 @@
 				BF13ABC2EA1CA3D65D196B98 /* Pods-calculator.debug.xcconfig */,
 				B14E60209C133246B46EBB9F /* Pods-calculator.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		C535EB87264A8BBF00631D01 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C535EB88264A8BE100631D01 /* LoginVC.swift */,
+				C535EB8C264A8BF200631D01 /* SignupVC.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C535EB8F264A933000631D01 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C535EB90264A935000631D01 /* DiscloserVC.swift */,
+				C535EB93264AA55900631D01 /* TermVC.swift */,
+				C535EB96264AAB2400631D01 /* HomeVC.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		C5FA490F2648C3130041866A = {
@@ -76,6 +104,8 @@
 				C5FA491B2648C3130041866A /* AppDelegate.swift */,
 				C5FA491D2648C3130041866A /* SceneDelegate.swift */,
 				C5FA491F2648C3130041866A /* ViewController.swift */,
+				C535EB8F264A933000631D01 /* Home */,
+				C535EB87264A8BBF00631D01 /* Login */,
 				C5FA49212648C3130041866A /* Main.storyboard */,
 				C5FA49242648C3150041866A /* Assets.xcassets */,
 				C5FA49262648C3150041866A /* LaunchScreen.storyboard */,
@@ -207,7 +237,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5FA49202648C3130041866A /* ViewController.swift in Sources */,
+				C535EB97264AAB2400631D01 /* HomeVC.swift in Sources */,
+				C535EB91264A935000631D01 /* DiscloserVC.swift in Sources */,
+				C535EB8D264A8BF200631D01 /* SignupVC.swift in Sources */,
+				C535EB94264AA55900631D01 /* TermVC.swift in Sources */,
 				C5FA491C2648C3130041866A /* AppDelegate.swift in Sources */,
+				C535EB89264A8BE100631D01 /* LoginVC.swift in Sources */,
 				C5FA491E2648C3130041866A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
