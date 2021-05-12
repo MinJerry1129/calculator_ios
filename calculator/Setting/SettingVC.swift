@@ -11,7 +11,10 @@ class SettingVC: UIViewController {
     var userVC : UserVC!
     var homeVC : HomeVC!
     var calendarVC :CalendarVC!
+    var loginVC : LoginVC!
+    var changepasswordVC : ChangePasswordVC!
     
+    @IBOutlet weak var loginBtn: UIButton!
     @IBOutlet weak var bottomView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,11 +22,26 @@ class SettingVC: UIViewController {
         // Do any additional setup after loading the view.
     }
     func setShadow(){
+        loginBtn.layer.borderWidth = 1
+        loginBtn.layer.borderColor = #colorLiteral(red: 0.007843137255, green: 0.7647058824, blue: 0.6039215686, alpha: 1)
+        
         self.bottomView.layer.shadowOffset = CGSize(width: 3, height: 3)
         self.bottomView.layer.shadowRadius = 5
         self.bottomView.layer.shadowOpacity = 0.3
     }
 
+    @IBAction func onLogoutBtn(_ sender: Any) {
+        UserDefaults.standard.set("", forKey: "userID")
+        UserDefaults.standard.set("no", forKey: "loginstatus")
+        self.loginVC = self.storyboard?.instantiateViewController(withIdentifier: "loginVC") as? LoginVC
+        self.loginVC.modalPresentationStyle = .fullScreen
+        self.present(self.loginVC, animated: true, completion: nil)
+    }
+    @IBAction func onChangeBtn(_ sender: Any) {
+        self.changepasswordVC = self.storyboard?.instantiateViewController(withIdentifier: "changepasswordVC") as? ChangePasswordVC
+        self.changepasswordVC.modalPresentationStyle = .fullScreen
+        self.present(self.changepasswordVC, animated: true, completion: nil)
+    }
     @IBAction func onUserBtn(_ sender: Any) {
         self.userVC = self.storyboard?.instantiateViewController(withIdentifier: "userVC") as? UserVC
         self.userVC.modalPresentationStyle = .fullScreen

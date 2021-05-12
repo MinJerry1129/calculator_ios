@@ -10,5 +10,19 @@
             </PersistentString>
          </PersistentStrings>
       </ContextState>
+      <ContextState
+         contextName = "OneSavingVC.getData():OneSavingVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "sel_saving">
+            </PersistentString>
+            <PersistentString
+               value = "user_id">
+            </PersistentString>
+            <PersistentString
+               value = "&quot;\(sel_saving)&quot;">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
    </ContextStates>
 </VariablesViewState>

@@ -8,16 +8,10 @@
 import UIKit
 
 class SavingCell: UITableViewCell {
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
+    
+    @IBOutlet weak var endDateTxt: UILabel!
+    @IBOutlet weak var startDateTxt: UILabel!
+    @IBOutlet weak var priceTxt: UILabel!
+    @IBOutlet weak var titleTxt: UILabel!
     
 }

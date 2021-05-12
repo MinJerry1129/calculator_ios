@@ -12,5 +12,5 @@ struct Saving {
     var startdate : String
     var enddate : String
     var type : Int
-    var price : String    
+    var price : String
 }
