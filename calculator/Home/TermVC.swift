@@ -8,7 +8,7 @@
 import UIKit
 
 class TermVC: UIViewController {
-
+    var homeVC : HomeVC!
     @IBOutlet weak var termView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,5 +19,10 @@ class TermVC: UIViewController {
         self.termView.layer.shadowRadius = 5
         self.termView.layer.shadowOpacity = 0.3
     }
-
+    @IBAction func onContinueBtn(_ sender: Any) {
+        self.homeVC = self.storyboard?.instantiateViewController(withIdentifier: "homeVC") as? HomeVC
+        self.homeVC.modalPresentationStyle = .fullScreen
+        self.present(self.homeVC, animated: true, completion: nil)
+    }
+    
 }

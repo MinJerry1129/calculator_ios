@@ -17,6 +17,22 @@
 		C52A8795264B5AF70061017A /* SetAmountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A8794264B5AF70061017A /* SetAmountVC.swift */; };
 		C52A8798264B5B140061017A /* MortgageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A8797264B5B140061017A /* MortgageVC.swift */; };
 		C52A879B264B5B3C0061017A /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A879A264B5B3C0061017A /* ChangePasswordVC.swift */; };
+		C52A87C5264BF3B50061017A /* ForgotVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A87C4264BF3B50061017A /* ForgotVC.swift */; };
+		C52A87C9264BF4930061017A /* IncomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A87C7264BF4930061017A /* IncomeCell.swift */; };
+		C52A87CA264BF4930061017A /* IncomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C52A87C8264BF4930061017A /* IncomeCell.xib */; };
+		C52A87D2264BF4C00061017A /* LiabilityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A87D0264BF4C00061017A /* LiabilityCell.swift */; };
+		C52A87D3264BF4C00061017A /* LiabilityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C52A87D1264BF4C00061017A /* LiabilityCell.xib */; };
+		C52A87D7264BF4D50061017A /* SavingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A87D5264BF4D50061017A /* SavingCell.swift */; };
+		C52A87D8264BF4D50061017A /* SavingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C52A87D6264BF4D50061017A /* SavingCell.xib */; };
+		C52A87E0264BF5000061017A /* InvestmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A87DE264BF5000061017A /* InvestmentCell.swift */; };
+		C52A87E1264BF5000061017A /* InvestmentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C52A87DF264BF5000061017A /* InvestmentCell.xib */; };
+		C52A87E5264BF5980061017A /* Saving.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A87E4264BF5980061017A /* Saving.swift */; };
+		C52A87E8264BF5AF0061017A /* Income.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A87E7264BF5AF0061017A /* Income.swift */; };
+		C52A87EB264BF5BA0061017A /* Liability.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A87EA264BF5BA0061017A /* Liability.swift */; };
+		C52A87EE264BF5C40061017A /* Investment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A87ED264BF5C40061017A /* Investment.swift */; };
+		C52A87F1264BF5E50061017A /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A87F0264BF5E50061017A /* Global.swift */; };
+		C52A87F4264BF8E80061017A /* IncomeCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A87F3264BF8E80061017A /* IncomeCategory.swift */; };
+		C52A87F7264BF8FF0061017A /* LiabilityCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A87F6264BF8FF0061017A /* LiabilityCategory.swift */; };
 		C535EB89264A8BE100631D01 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C535EB88264A8BE100631D01 /* LoginVC.swift */; };
 		C535EB8D264A8BF200631D01 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C535EB8C264A8BF200631D01 /* SignupVC.swift */; };
 		C535EB91264A935000631D01 /* DiscloserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C535EB90264A935000631D01 /* DiscloserVC.swift */; };
@@ -26,6 +42,8 @@
 		C535EBCD264AE30500631D01 /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C535EBCC264AE30500631D01 /* CalendarVC.swift */; };
 		C535EBD2264AE4FE00631D01 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C535EBD1264AE4FE00631D01 /* SettingVC.swift */; };
 		C535EBDA264AFFC600631D01 /* SelDurationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C535EBD9264AFFC600631D01 /* SelDurationVC.swift */; };
+		C59A5692264C2D8B00F3EFC7 /* DurationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59A5690264C2D8B00F3EFC7 /* DurationCell.swift */; };
+		C59A5693264C2D8B00F3EFC7 /* DurationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C59A5691264C2D8B00F3EFC7 /* DurationCell.xib */; };
 		C5FA491C2648C3130041866A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FA491B2648C3130041866A /* AppDelegate.swift */; };
 		C5FA491E2648C3130041866A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FA491D2648C3130041866A /* SceneDelegate.swift */; };
 		C5FA49232648C3130041866A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5FA49212648C3130041866A /* Main.storyboard */; };
@@ -45,6 +63,22 @@
 		C52A8794264B5AF70061017A /* SetAmountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetAmountVC.swift; sourceTree = "<group>"; };
 		C52A8797264B5B140061017A /* MortgageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgageVC.swift; sourceTree = "<group>"; };
 		C52A879A264B5B3C0061017A /* ChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
+		C52A87C4264BF3B50061017A /* ForgotVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotVC.swift; sourceTree = "<group>"; };
+		C52A87C7264BF4930061017A /* IncomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeCell.swift; sourceTree = "<group>"; };
+		C52A87C8264BF4930061017A /* IncomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IncomeCell.xib; sourceTree = "<group>"; };
+		C52A87D0264BF4C00061017A /* LiabilityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiabilityCell.swift; sourceTree = "<group>"; };
+		C52A87D1264BF4C00061017A /* LiabilityCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LiabilityCell.xib; sourceTree = "<group>"; };
+		C52A87D5264BF4D50061017A /* SavingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingCell.swift; sourceTree = "<group>"; };
+		C52A87D6264BF4D50061017A /* SavingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SavingCell.xib; sourceTree = "<group>"; };
+		C52A87DE264BF5000061017A /* InvestmentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentCell.swift; sourceTree = "<group>"; };
+		C52A87DF264BF5000061017A /* InvestmentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InvestmentCell.xib; sourceTree = "<group>"; };
+		C52A87E4264BF5980061017A /* Saving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saving.swift; sourceTree = "<group>"; };
+		C52A87E7264BF5AF0061017A /* Income.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Income.swift; sourceTree = "<group>"; };
+		C52A87EA264BF5BA0061017A /* Liability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Liability.swift; sourceTree = "<group>"; };
+		C52A87ED264BF5C40061017A /* Investment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Investment.swift; sourceTree = "<group>"; };
+		C52A87F0264BF5E50061017A /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		C52A87F3264BF8E80061017A /* IncomeCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeCategory.swift; sourceTree = "<group>"; };
+		C52A87F6264BF8FF0061017A /* LiabilityCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiabilityCategory.swift; sourceTree = "<group>"; };
 		C535EB88264A8BE100631D01 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		C535EB8C264A8BF200631D01 /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
 		C535EB90264A935000631D01 /* DiscloserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscloserVC.swift; sourceTree = "<group>"; };
@@ -54,6 +88,8 @@
 		C535EBCC264AE30500631D01 /* CalendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
 		C535EBD1264AE4FE00631D01 /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
 		C535EBD9264AFFC600631D01 /* SelDurationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelDurationVC.swift; sourceTree = "<group>"; };
+		C59A5690264C2D8B00F3EFC7 /* DurationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurationCell.swift; sourceTree = "<group>"; };
+		C59A5691264C2D8B00F3EFC7 /* DurationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DurationCell.xib; sourceTree = "<group>"; };
 		C5FA49182648C3130041866A /* calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5FA491B2648C3130041866A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5FA491D2648C3130041866A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +124,7 @@
 		C52A879D264B5B4E0061017A /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				C52A87F0264BF5E50061017A /* Global.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -95,8 +132,31 @@
 		C52A879E264B5B590061017A /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				C52A87C7264BF4930061017A /* IncomeCell.swift */,
+				C52A87C8264BF4930061017A /* IncomeCell.xib */,
+				C52A87D0264BF4C00061017A /* LiabilityCell.swift */,
+				C52A87D1264BF4C00061017A /* LiabilityCell.xib */,
+				C52A87D5264BF4D50061017A /* SavingCell.swift */,
+				C52A87D6264BF4D50061017A /* SavingCell.xib */,
+				C52A87DE264BF5000061017A /* InvestmentCell.swift */,
+				C52A87DF264BF5000061017A /* InvestmentCell.xib */,
+				C59A5690264C2D8B00F3EFC7 /* DurationCell.swift */,
+				C59A5691264C2D8B00F3EFC7 /* DurationCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		C52A87E3264BF57E0061017A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C52A87E4264BF5980061017A /* Saving.swift */,
+				C52A87F6264BF8FF0061017A /* LiabilityCategory.swift */,
+				C52A87E7264BF5AF0061017A /* Income.swift */,
+				C52A87EA264BF5BA0061017A /* Liability.swift */,
+				C52A87ED264BF5C40061017A /* Investment.swift */,
+				C52A87F3264BF8E80061017A /* IncomeCategory.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		C535EB87264A8BBF00631D01 /* Login */ = {
@@ -104,6 +164,7 @@
 			children = (
 				C535EB88264A8BE100631D01 /* LoginVC.swift */,
 				C535EB8C264A8BF200631D01 /* SignupVC.swift */,
+				C52A87C4264BF3B50061017A /* ForgotVC.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -175,6 +236,7 @@
 			children = (
 				C5FA491B2648C3130041866A /* AppDelegate.swift */,
 				C5FA491D2648C3130041866A /* SceneDelegate.swift */,
+				C52A87E3264BF57E0061017A /* Model */,
 				C52A879E264B5B590061017A /* Cell */,
 				C52A879D264B5B4E0061017A /* Utils */,
 				C535EBCF264AE4D700631D01 /* Setting */,
@@ -258,8 +320,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5FA49282648C3150041866A /* LaunchScreen.storyboard in Resources */,
+				C52A87D3264BF4C00061017A /* LiabilityCell.xib in Resources */,
+				C52A87E1264BF5000061017A /* InvestmentCell.xib in Resources */,
 				C5FA49252648C3150041866A /* Assets.xcassets in Resources */,
+				C52A87CA264BF4930061017A /* IncomeCell.xib in Resources */,
 				C5FA49232648C3130041866A /* Main.storyboard in Resources */,
+				C52A87D8264BF4D50061017A /* SavingCell.xib in Resources */,
+				C59A5693264C2D8B00F3EFC7 /* DurationCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,23 +382,36 @@
 				C52A8783264B5A790061017A /* SetIncomeVC.swift in Sources */,
 				C535EBCD264AE30500631D01 /* CalendarVC.swift in Sources */,
 				C535EB97264AAB2400631D01 /* HomeVC.swift in Sources */,
+				C52A87D7264BF4D50061017A /* SavingCell.swift in Sources */,
 				C52A878F264B5ACA0061017A /* InvestmentListVC.swift in Sources */,
 				C535EB91264A935000631D01 /* DiscloserVC.swift in Sources */,
 				C535EB8D264A8BF200631D01 /* SignupVC.swift in Sources */,
+				C52A87C9264BF4930061017A /* IncomeCell.swift in Sources */,
+				C52A87F4264BF8E80061017A /* IncomeCategory.swift in Sources */,
+				C59A5692264C2D8B00F3EFC7 /* DurationCell.swift in Sources */,
+				C52A87F1264BF5E50061017A /* Global.swift in Sources */,
+				C52A87EE264BF5C40061017A /* Investment.swift in Sources */,
 				C535EBDA264AFFC600631D01 /* SelDurationVC.swift in Sources */,
 				C52A879B264B5B3C0061017A /* ChangePasswordVC.swift in Sources */,
+				C52A87C5264BF3B50061017A /* ForgotVC.swift in Sources */,
 				C52A8798264B5B140061017A /* MortgageVC.swift in Sources */,
 				C52A8795264B5AF70061017A /* SetAmountVC.swift in Sources */,
+				C52A87EB264BF5BA0061017A /* Liability.swift in Sources */,
 				C52A8786264B5A8D0061017A /* SetLiabilityVC.swift in Sources */,
 				C52A878C264B5AB90061017A /* OneSavingVC.swift in Sources */,
+				C52A87F7264BF8FF0061017A /* LiabilityCategory.swift in Sources */,
 				C535EB94264AA55900631D01 /* TermVC.swift in Sources */,
+				C52A87D2264BF4C00061017A /* LiabilityCell.swift in Sources */,
 				C52A8792264B5AD70061017A /* SetInvestmentVC.swift in Sources */,
 				C52A8789264B5AAC0061017A /* SavingListVC.swift in Sources */,
 				C5FA491C2648C3130041866A /* AppDelegate.swift in Sources */,
 				C535EB89264A8BE100631D01 /* LoginVC.swift in Sources */,
 				C535EBD2264AE4FE00631D01 /* SettingVC.swift in Sources */,
+				C52A87E8264BF5AF0061017A /* Income.swift in Sources */,
 				C535EBA8264ADC6600631D01 /* UserVC.swift in Sources */,
+				C52A87E0264BF5000061017A /* InvestmentCell.swift in Sources */,
 				C5FA491E2648C3130041866A /* SceneDelegate.swift in Sources */,
+				C52A87E5264BF5980061017A /* Saving.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

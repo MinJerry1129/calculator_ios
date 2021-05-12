@@ -8,7 +8,10 @@
 import UIKit
 
 class SettingVC: UIViewController {
-
+    var userVC : UserVC!
+    var homeVC : HomeVC!
+    var calendarVC :CalendarVC!
+    
     @IBOutlet weak var bottomView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,5 +24,20 @@ class SettingVC: UIViewController {
         self.bottomView.layer.shadowOpacity = 0.3
     }
 
-
+    @IBAction func onUserBtn(_ sender: Any) {
+        self.userVC = self.storyboard?.instantiateViewController(withIdentifier: "userVC") as? UserVC
+        self.userVC.modalPresentationStyle = .fullScreen
+        self.present(self.userVC, animated: true, completion: nil)
+    }
+    @IBAction func onCalendarBtn(_ sender: Any) {
+        self.calendarVC = self.storyboard?.instantiateViewController(withIdentifier: "calendarVC") as? CalendarVC
+        self.calendarVC.modalPresentationStyle = .fullScreen
+        self.present(self.calendarVC, animated: true, completion: nil)
+    }
+    
+    @IBAction func onHomeBtn(_ sender: Any) {
+        self.homeVC = self.storyboard?.instantiateViewController(withIdentifier: "homeVC") as? HomeVC
+        self.homeVC.modalPresentationStyle = .fullScreen
+        self.present(self.homeVC, animated: true, completion: nil)
+    }
 }
