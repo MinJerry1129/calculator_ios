@@ -8,15 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		7C234CD6D8B8C91D1E7363E7 /* Pods_calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2207EEB53A7D8F6F340F24B /* Pods_calculator.framework */; };
+		C52A8783264B5A790061017A /* SetIncomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A8782264B5A790061017A /* SetIncomeVC.swift */; };
+		C52A8786264B5A8D0061017A /* SetLiabilityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A8785264B5A8D0061017A /* SetLiabilityVC.swift */; };
+		C52A8789264B5AAC0061017A /* SavingListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A8788264B5AAC0061017A /* SavingListVC.swift */; };
+		C52A878C264B5AB90061017A /* OneSavingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A878B264B5AB90061017A /* OneSavingVC.swift */; };
+		C52A878F264B5ACA0061017A /* InvestmentListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A878E264B5ACA0061017A /* InvestmentListVC.swift */; };
+		C52A8792264B5AD70061017A /* SetInvestmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A8791264B5AD70061017A /* SetInvestmentVC.swift */; };
+		C52A8795264B5AF70061017A /* SetAmountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A8794264B5AF70061017A /* SetAmountVC.swift */; };
+		C52A8798264B5B140061017A /* MortgageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A8797264B5B140061017A /* MortgageVC.swift */; };
+		C52A879B264B5B3C0061017A /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A879A264B5B3C0061017A /* ChangePasswordVC.swift */; };
 		C535EB89264A8BE100631D01 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C535EB88264A8BE100631D01 /* LoginVC.swift */; };
 		C535EB8D264A8BF200631D01 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C535EB8C264A8BF200631D01 /* SignupVC.swift */; };
 		C535EB91264A935000631D01 /* DiscloserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C535EB90264A935000631D01 /* DiscloserVC.swift */; };
 		C535EB94264AA55900631D01 /* TermVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C535EB93264AA55900631D01 /* TermVC.swift */; };
 		C535EB97264AAB2400631D01 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C535EB96264AAB2400631D01 /* HomeVC.swift */; };
 		C535EBA8264ADC6600631D01 /* UserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C535EBA7264ADC6600631D01 /* UserVC.swift */; };
+		C535EBCD264AE30500631D01 /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C535EBCC264AE30500631D01 /* CalendarVC.swift */; };
+		C535EBD2264AE4FE00631D01 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C535EBD1264AE4FE00631D01 /* SettingVC.swift */; };
+		C535EBDA264AFFC600631D01 /* SelDurationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C535EBD9264AFFC600631D01 /* SelDurationVC.swift */; };
 		C5FA491C2648C3130041866A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FA491B2648C3130041866A /* AppDelegate.swift */; };
 		C5FA491E2648C3130041866A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FA491D2648C3130041866A /* SceneDelegate.swift */; };
-		C5FA49202648C3130041866A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FA491F2648C3130041866A /* ViewController.swift */; };
 		C5FA49232648C3130041866A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5FA49212648C3130041866A /* Main.storyboard */; };
 		C5FA49252648C3150041866A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5FA49242648C3150041866A /* Assets.xcassets */; };
 		C5FA49282648C3150041866A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5FA49262648C3150041866A /* LaunchScreen.storyboard */; };
@@ -25,16 +36,27 @@
 /* Begin PBXFileReference section */
 		B14E60209C133246B46EBB9F /* Pods-calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calculator.release.xcconfig"; path = "Target Support Files/Pods-calculator/Pods-calculator.release.xcconfig"; sourceTree = "<group>"; };
 		BF13ABC2EA1CA3D65D196B98 /* Pods-calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calculator.debug.xcconfig"; path = "Target Support Files/Pods-calculator/Pods-calculator.debug.xcconfig"; sourceTree = "<group>"; };
+		C52A8782264B5A790061017A /* SetIncomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetIncomeVC.swift; sourceTree = "<group>"; };
+		C52A8785264B5A8D0061017A /* SetLiabilityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetLiabilityVC.swift; sourceTree = "<group>"; };
+		C52A8788264B5AAC0061017A /* SavingListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingListVC.swift; sourceTree = "<group>"; };
+		C52A878B264B5AB90061017A /* OneSavingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneSavingVC.swift; sourceTree = "<group>"; };
+		C52A878E264B5ACA0061017A /* InvestmentListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentListVC.swift; sourceTree = "<group>"; };
+		C52A8791264B5AD70061017A /* SetInvestmentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetInvestmentVC.swift; sourceTree = "<group>"; };
+		C52A8794264B5AF70061017A /* SetAmountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetAmountVC.swift; sourceTree = "<group>"; };
+		C52A8797264B5B140061017A /* MortgageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgageVC.swift; sourceTree = "<group>"; };
+		C52A879A264B5B3C0061017A /* ChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
 		C535EB88264A8BE100631D01 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		C535EB8C264A8BF200631D01 /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
 		C535EB90264A935000631D01 /* DiscloserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscloserVC.swift; sourceTree = "<group>"; };
 		C535EB93264AA55900631D01 /* TermVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermVC.swift; sourceTree = "<group>"; };
 		C535EB96264AAB2400631D01 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		C535EBA7264ADC6600631D01 /* UserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVC.swift; sourceTree = "<group>"; };
+		C535EBCC264AE30500631D01 /* CalendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
+		C535EBD1264AE4FE00631D01 /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
+		C535EBD9264AFFC600631D01 /* SelDurationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelDurationVC.swift; sourceTree = "<group>"; };
 		C5FA49182648C3130041866A /* calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5FA491B2648C3130041866A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5FA491D2648C3130041866A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C5FA491F2648C3130041866A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C5FA49222648C3130041866A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5FA49242648C3150041866A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5FA49272648C3150041866A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -63,6 +85,20 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		C52A879D264B5B4E0061017A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C52A879E264B5B590061017A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		C535EB87264A8BBF00631D01 /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +114,9 @@
 				C535EB90264A935000631D01 /* DiscloserVC.swift */,
 				C535EB93264AA55900631D01 /* TermVC.swift */,
 				C535EB96264AAB2400631D01 /* HomeVC.swift */,
+				C535EBD9264AFFC600631D01 /* SelDurationVC.swift */,
+				C52A8782264B5A790061017A /* SetIncomeVC.swift */,
+				C52A8785264B5A8D0061017A /* SetLiabilityVC.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -86,8 +125,31 @@
 			isa = PBXGroup;
 			children = (
 				C535EBA7264ADC6600631D01 /* UserVC.swift */,
+				C52A8788264B5AAC0061017A /* SavingListVC.swift */,
+				C52A878B264B5AB90061017A /* OneSavingVC.swift */,
+				C52A878E264B5ACA0061017A /* InvestmentListVC.swift */,
+				C52A8791264B5AD70061017A /* SetInvestmentVC.swift */,
+				C52A8794264B5AF70061017A /* SetAmountVC.swift */,
+				C52A8797264B5B140061017A /* MortgageVC.swift */,
 			);
 			path = profile;
+			sourceTree = "<group>";
+		};
+		C535EBCB264AE2F200631D01 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				C535EBCC264AE30500631D01 /* CalendarVC.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		C535EBCF264AE4D700631D01 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				C535EBD1264AE4FE00631D01 /* SettingVC.swift */,
+				C52A879A264B5B3C0061017A /* ChangePasswordVC.swift */,
+			);
+			path = Setting;
 			sourceTree = "<group>";
 		};
 		C5FA490F2648C3130041866A = {
@@ -113,7 +175,10 @@
 			children = (
 				C5FA491B2648C3130041866A /* AppDelegate.swift */,
 				C5FA491D2648C3130041866A /* SceneDelegate.swift */,
-				C5FA491F2648C3130041866A /* ViewController.swift */,
+				C52A879E264B5B590061017A /* Cell */,
+				C52A879D264B5B4E0061017A /* Utils */,
+				C535EBCF264AE4D700631D01 /* Setting */,
+				C535EBCB264AE2F200631D01 /* Calendar */,
 				C535EBA6264ADC5400631D01 /* profile */,
 				C535EB8F264A933000631D01 /* Home */,
 				C535EB87264A8BBF00631D01 /* Login */,
@@ -247,13 +312,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5FA49202648C3130041866A /* ViewController.swift in Sources */,
+				C52A8783264B5A790061017A /* SetIncomeVC.swift in Sources */,
+				C535EBCD264AE30500631D01 /* CalendarVC.swift in Sources */,
 				C535EB97264AAB2400631D01 /* HomeVC.swift in Sources */,
+				C52A878F264B5ACA0061017A /* InvestmentListVC.swift in Sources */,
 				C535EB91264A935000631D01 /* DiscloserVC.swift in Sources */,
 				C535EB8D264A8BF200631D01 /* SignupVC.swift in Sources */,
+				C535EBDA264AFFC600631D01 /* SelDurationVC.swift in Sources */,
+				C52A879B264B5B3C0061017A /* ChangePasswordVC.swift in Sources */,
+				C52A8798264B5B140061017A /* MortgageVC.swift in Sources */,
+				C52A8795264B5AF70061017A /* SetAmountVC.swift in Sources */,
+				C52A8786264B5A8D0061017A /* SetLiabilityVC.swift in Sources */,
+				C52A878C264B5AB90061017A /* OneSavingVC.swift in Sources */,
 				C535EB94264AA55900631D01 /* TermVC.swift in Sources */,
+				C52A8792264B5AD70061017A /* SetInvestmentVC.swift in Sources */,
+				C52A8789264B5AAC0061017A /* SavingListVC.swift in Sources */,
 				C5FA491C2648C3130041866A /* AppDelegate.swift in Sources */,
 				C535EB89264A8BE100631D01 /* LoginVC.swift in Sources */,
+				C535EBD2264AE4FE00631D01 /* SettingVC.swift in Sources */,
 				C535EBA8264ADC6600631D01 /* UserVC.swift in Sources */,
 				C5FA491E2648C3130041866A /* SceneDelegate.swift in Sources */,
 			);
@@ -404,6 +480,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LM7AM28BR9;
 				INFOPLIST_FILE = calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -423,6 +500,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LM7AM28BR9;
 				INFOPLIST_FILE = calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

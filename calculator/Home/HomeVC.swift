@@ -10,6 +10,7 @@ import Charts
 class HomeVC: UIViewController {
     let parties = ["Income", "Liability"]
     var prices = [0.0, 0.0]
+    
     @IBOutlet weak var chartView: PieChartView!
     @IBOutlet weak var bottomView: UIView!
     var income_price = 1.0
@@ -61,5 +62,9 @@ class HomeVC: UIViewController {
         chartView.data = data
         chartView.highlightValues(nil)
     }
-
+    
+    @IBAction func onSummaryBtn(_ sender: Any) {
+        
+    }
+    
 }

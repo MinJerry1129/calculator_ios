@@ -1,21 +1,19 @@
 PODS:
   - Alamofire (5.4.1)
-  - CalendarView (1.1.2):
-    - SwiftMoment (~> 0.1)
   - Charts (3.6.0):
     - Charts/Core (= 3.6.0)
   - Charts/Core (3.6.0)
+  - FSCalendar (2.8.2)
   - iOSDropDown (0.3.4)
   - IQKeyboardManagerSwift (6.5.6)
   - JTMaterialSpinner (3.0.5)
   - SimpleCheckbox (2.1.0)
-  - SwiftMoment (0.7)
   - Toast-Swift (5.0.1)
 
 DEPENDENCIES:
   - Alamofire
-  - CalendarView
   - Charts
+  - FSCalendar
   - iOSDropDown
   - IQKeyboardManagerSwift
   - JTMaterialSpinner
@@ -25,26 +23,24 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
-    - CalendarView
     - Charts
+    - FSCalendar
     - iOSDropDown
     - IQKeyboardManagerSwift
     - JTMaterialSpinner
     - SimpleCheckbox
-    - SwiftMoment
     - Toast-Swift
 
 SPEC CHECKSUMS:
   Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
-  CalendarView: 35d51b70586213604edec22a585d105273f6e191
   Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  FSCalendar: e6a2eb9c571bf0719ed797ef807e08426753c241
   iOSDropDown: c10a761f9a00c3f1cc9d3bce43ae504628e2f692
   IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
   JTMaterialSpinner: 28a0444186b6b2df4206a77d12f7c9dcbe604958
   SimpleCheckbox: ddcd433ab8c3a8f57300bebda13151a8f302c7f9
-  SwiftMoment: dc6dd27012e267819104cbb03f74ff9192dd0b42
   Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
 
-PODFILE CHECKSUM: 8114d1e79b39eecc491d616c5a8b51754cf2b80a
+PODFILE CHECKSUM: a4943e1ecfba02e5cc04e98f19ff68337a6e337e
 
 COCOAPODS: 1.10.1
