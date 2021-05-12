@@ -14,5 +14,5 @@ target 'calculator' do
   pod 'Toast-Swift'
   pod 'Charts'
   pod 'FSCalendar'
-  
+  pod "MBCircularProgressBar"
 end
