@@ -228,6 +228,8 @@ extension HomeVC : UITableViewDelegate, UITableViewDataSource{
             let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! LiabilityCell
             let oneLiability = allLiability[indexPath.row]
             let liability_title = allLiabilityCategory[oneLiability.categoryid].title
+            let income_image = allLiabilityCategory[oneLiability.categoryid].imageUrl
+            cell.priceImg.image = UIImage(named: income_image)
             cell.priceTitle.text = liability_title
             cell.priceValue.text = oneLiability.price
             return cell

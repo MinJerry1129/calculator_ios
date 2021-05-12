@@ -1498,10 +1498,10 @@
             </objects>
             <point key="canvasLocation" x="3572" y="2299"/>
         </scene>
-        <!--View Controller-->
+        <!--Set IncomeVC-->
         <scene sceneID="1bY-qF-ctd">
             <objects>
-                <viewController id="JFJ-5g-Nun" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="setincomeVC" id="JFJ-5g-Nun" customClass="SetIncomeVC" customModule="calculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UJn-5C-FBA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1526,12 +1526,13 @@
                                                     <constraint firstAttribute="width" secondItem="D85-jJ-D7z" secondAttribute="height" multiplier="1:1" id="z5u-qj-Sa1"/>
                                                 </constraints>
                                             </imageView>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tZ8-14-9UB">
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="price" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tZ8-14-9UB">
                                                 <rect key="frame" x="60" y="10" width="283" height="40"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="Q9E-3e-cMh"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" name="majorcolor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                             </textField>
                                         </subviews>
@@ -1554,13 +1555,17 @@
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CUN-cr-kj6">
                                         <rect key="frame" x="20.5" y="170" width="373" height="60"/>
                                         <subviews>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xVh-V6-FbO" customClass="DropDown" customModule="iOSDropDown">
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Search Category" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xVh-V6-FbO" customClass="DropDown" customModule="iOSDropDown">
                                                 <rect key="frame" x="30" y="10" width="313" height="40"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="RIj-sl-SiV"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" name="majorcolor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSearchEnable" value="NO"/>
+                                                </userDefinedRuntimeAttributes>
                                             </textField>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1580,13 +1585,17 @@
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tmi-Np-CZg">
                                         <rect key="frame" x="20.5" y="245" width="373" height="60"/>
                                         <subviews>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cNA-0a-kBo" customClass="DropDown" customModule="iOSDropDown">
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Repeat" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cNA-0a-kBo" customClass="DropDown" customModule="iOSDropDown">
                                                 <rect key="frame" x="30" y="10" width="313" height="40"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="PZ6-fB-6cZ"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" name="majorcolor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSearchEnable" value="NO"/>
+                                                </userDefinedRuntimeAttributes>
                                             </textField>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1619,7 +1628,8 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="U8l-hD-8C3"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" name="majorcolor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                             </textField>
                                         </subviews>
@@ -1647,6 +1657,9 @@
                                         </constraints>
                                         <color key="tintColor" name="majorcolor"/>
                                         <state key="normal" backgroundImage="multiply.circle.fill" catalog="system"/>
+                                        <connections>
+                                            <action selector="onCancelBtn:" destination="JFJ-5g-Nun" eventType="touchUpInside" id="kX0-v1-qD7"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GCo-yh-BkE">
                                         <rect key="frame" x="247" y="410.5" width="50" height="49"/>
@@ -1656,6 +1669,9 @@
                                         </constraints>
                                         <color key="tintColor" name="majorcolor"/>
                                         <state key="normal" backgroundImage="checkmark.circle.fill" catalog="system"/>
+                                        <connections>
+                                            <action selector="onSetBtn:" destination="JFJ-5g-Nun" eventType="touchUpInside" id="ERx-mc-Vnx"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1691,6 +1707,16 @@
                             <constraint firstItem="SuB-wI-KEl" firstAttribute="height" secondItem="lbZ-1Q-j4K" secondAttribute="height" id="vyV-wJ-kSx"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="IncomeDV" destination="xVh-V6-FbO" id="Jx3-ay-9NX"/>
+                        <outlet property="categoryView" destination="CUN-cr-kj6" id="rW0-TN-qrq"/>
+                        <outlet property="noteTxt" destination="etZ-DL-UiE" id="zqN-eb-WAo"/>
+                        <outlet property="noteView" destination="oHr-40-8ui" id="eJG-tG-HfO"/>
+                        <outlet property="priceTxt" destination="tZ8-14-9UB" id="y13-1W-lFW"/>
+                        <outlet property="priceView" destination="f0b-da-d53" id="9lI-SF-O9l"/>
+                        <outlet property="repeatDV" destination="cNA-0a-kBo" id="alX-io-Fhs"/>
+                        <outlet property="repeatView" destination="Tmi-Np-CZg" id="C0v-7z-lcc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qb8-ya-jAe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1948,6 +1974,9 @@
                                                                         <integer key="value" value="20"/>
                                                                     </userDefinedRuntimeAttribute>
                                                                 </userDefinedRuntimeAttributes>
+                                                                <connections>
+                                                                    <action selector="onSavingBtn:" destination="9M9-kH-1Jw" eventType="touchUpInside" id="PQg-3p-HXw"/>
+                                                                </connections>
                                                             </button>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wsaving" translatesAutoresizingMaskIntoConstraints="NO" id="tMy-H1-qzq">
                                                                 <rect key="frame" x="20" y="7.5" width="25" height="25"/>
@@ -1985,6 +2014,9 @@
                                                                         <integer key="value" value="20"/>
                                                                     </userDefinedRuntimeAttribute>
                                                                 </userDefinedRuntimeAttributes>
+                                                                <connections>
+                                                                    <action selector="onInvestmentBtn:" destination="9M9-kH-1Jw" eventType="touchUpInside" id="S5i-eb-7kI"/>
+                                                                </connections>
                                                             </button>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="winvest" translatesAutoresizingMaskIntoConstraints="NO" id="SFx-Wz-rm4">
                                                                 <rect key="frame" x="20" y="7.5" width="25" height="25"/>
@@ -2022,6 +2054,9 @@
                                                                         <integer key="value" value="20"/>
                                                                     </userDefinedRuntimeAttribute>
                                                                 </userDefinedRuntimeAttributes>
+                                                                <connections>
+                                                                    <action selector="onMortgageBtn:" destination="9M9-kH-1Jw" eventType="touchUpInside" id="XY8-FU-zkQ"/>
+                                                                </connections>
                                                             </button>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="whome" translatesAutoresizingMaskIntoConstraints="NO" id="s1V-wE-oae">
                                                                 <rect key="frame" x="20" y="7.5" width="25" height="25"/>
@@ -2072,6 +2107,9 @@
                                                                         <integer key="value" value="20"/>
                                                                     </userDefinedRuntimeAttribute>
                                                                 </userDefinedRuntimeAttributes>
+                                                                <connections>
+                                                                    <action selector="onAmountBtn:" destination="9M9-kH-1Jw" eventType="touchUpInside" id="qtA-10-ohR"/>
+                                                                </connections>
                                                             </button>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wmoney" translatesAutoresizingMaskIntoConstraints="NO" id="NtM-VH-fbP">
                                                                 <rect key="frame" x="20" y="7.5" width="25" height="25"/>
@@ -2807,10 +2845,10 @@
             </objects>
             <point key="canvasLocation" x="5284" y="1578"/>
         </scene>
-        <!--View Controller-->
+        <!--Change PasswordVC-->
         <scene sceneID="y4I-0f-Nfo">
             <objects>
-                <viewController id="jqm-pn-hMV" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="changepasswordVC" id="jqm-pn-hMV" customClass="ChangePasswordVC" customModule="calculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QDY-u4-eqH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2945,10 +2983,10 @@
             </objects>
             <point key="canvasLocation" x="5283" y="2299"/>
         </scene>
-        <!--View Controller-->
+        <!--Set LiabilityVC-->
         <scene sceneID="zQQ-zb-Ga0">
             <objects>
-                <viewController id="I53-6D-qUT" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="setlibilityVC" id="I53-6D-qUT" customClass="SetLiabilityVC" customModule="calculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4D7-BU-DMy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2973,12 +3011,13 @@
                                                     <constraint firstAttribute="height" constant="25" id="z7S-Nm-Bx0"/>
                                                 </constraints>
                                             </imageView>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x1V-8x-OS1">
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Price" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x1V-8x-OS1">
                                                 <rect key="frame" x="60" y="10" width="283" height="40"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="P8w-pQ-EQg"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" name="secondcolor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                             </textField>
                                         </subviews>
@@ -3001,13 +3040,17 @@
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Kd-5q-x7u">
                                         <rect key="frame" x="20.5" y="170" width="373" height="60"/>
                                         <subviews>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Sa-zP-BkK" customClass="DropDown" customModule="iOSDropDown">
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Select Category" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Sa-zP-BkK" customClass="DropDown" customModule="iOSDropDown">
                                                 <rect key="frame" x="30" y="10" width="313" height="40"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="ene-w2-2x2"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" name="secondcolor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSearchEnable" value="NO"/>
+                                                </userDefinedRuntimeAttributes>
                                             </textField>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -3027,13 +3070,17 @@
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o9M-Jd-YpN">
                                         <rect key="frame" x="20.5" y="245" width="373" height="60"/>
                                         <subviews>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kce-AG-6qN" customClass="DropDown" customModule="iOSDropDown">
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Repeat" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kce-AG-6qN" customClass="DropDown" customModule="iOSDropDown">
                                                 <rect key="frame" x="30" y="10" width="313" height="40"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="dqi-mj-34E"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" name="secondcolor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSearchEnable" value="NO"/>
+                                                </userDefinedRuntimeAttributes>
                                             </textField>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -3066,7 +3113,8 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="hfs-Xv-933"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" name="secondcolor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                             </textField>
                                         </subviews>
@@ -3094,6 +3142,9 @@
                                         </constraints>
                                         <color key="tintColor" name="secondcolor"/>
                                         <state key="normal" backgroundImage="multiply.circle.fill" catalog="system"/>
+                                        <connections>
+                                            <action selector="onCancelBtn:" destination="I53-6D-qUT" eventType="touchUpInside" id="6Zb-0d-hor"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N7o-wT-5CY">
                                         <rect key="frame" x="247" y="410.5" width="50" height="49"/>
@@ -3103,6 +3154,9 @@
                                         </constraints>
                                         <color key="tintColor" name="secondcolor"/>
                                         <state key="normal" backgroundImage="checkmark.circle.fill" catalog="system"/>
+                                        <connections>
+                                            <action selector="onSetBtn:" destination="I53-6D-qUT" eventType="touchUpInside" id="jHi-35-WwA"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -3138,6 +3192,16 @@
                             <constraint firstItem="Mxj-fi-sZp" firstAttribute="centerY" secondItem="GZu-t4-AVJ" secondAttribute="centerY" id="vQ8-v2-tyo"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="categoryView" destination="8Kd-5q-x7u" id="OA9-pG-sAK"/>
+                        <outlet property="liabilityDV" destination="6Sa-zP-BkK" id="2I3-Ec-erL"/>
+                        <outlet property="noteTxt" destination="hrU-G0-HUq" id="ebI-eD-xF1"/>
+                        <outlet property="noteView" destination="rbp-07-Qzv" id="29m-Bv-ASc"/>
+                        <outlet property="priceTxt" destination="x1V-8x-OS1" id="COI-nR-CA4"/>
+                        <outlet property="priceView" destination="wfc-FT-8sy" id="I3L-yd-pJZ"/>
+                        <outlet property="repeatDV" destination="kce-AG-6qN" id="1Ah-Y2-nBB"/>
+                        <outlet property="repeatView" destination="o9M-Jd-YpN" id="wF3-1i-H5o"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I2o-XJ-qtQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
